@@ -1,12 +1,12 @@
 
-def ddockeruser = "marma"
+def ddockeruser = "4040marma"
 def imagename = "ubuntu:16"
 def container = "apache2"
 node {
    echo 'Building Apache Docker Image'
 
 stage('Git Checkout') {
-    git 'https://github.com/amarsingh3d/jenkins-pipeline'
+    git 'https://github.com/marma-iscteiul/ES2Project'
     }
     
 stage('Build Docker Imagae'){
