@@ -1,7 +1,7 @@
 
 def ddockeruser = "4040marma"
-def imagename = "ubuntu:16"
-def container = "apache2"
+def imagename = "hello-World" // em ve de ubunto 16
+def container = "Myhelloworld" // em vz de apache2
 node {
    echo 'Building Apache Docker Image'
 
